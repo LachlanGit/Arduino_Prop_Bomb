@@ -78,7 +78,7 @@ Submit issues via the issues tab. Contact me at lachlan.github@outlook.com
 - Button by t3db0t (Available [here](https://github.com/virgildisgr4ce/Button))
 - ToneAC by Tim Eckel (Available in library manager or [here](https://github.com/teckel12/arduino-toneac))
 - EEPROMEx by Thijs Elenbaas (Available in library manager or [here](http://playground.arduino.cc/Code/EEPROMex))
-- Timers by LachlanGit/Me (Available [soon](http://github.com))
+- Timers by LachlanGit/Me (Available [here](https://github.com/LachlanGit/Arduino_Timer_Library))
 
 ## Configuration mode usage
 - Turn key to config position (will be different depending on your key switch used)
