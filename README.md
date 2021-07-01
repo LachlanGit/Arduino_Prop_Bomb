@@ -11,12 +11,12 @@ Submit issues via the issues tab. Contact me at lachlan.github@outlook.com
 (If you use parts other than the ones I used, it is up to you to edit the code accordingly)
 - Arduino Mega 2560
 - 12 button keypad (0-9, *, #)
-- [128 * 64 3-wire SPI LCD display](https://www.digikey.com.au/product-detail/en/dfrobot/DFR0091/DFR0091-ND/7597123))
+- 128 * 64 3-wire SPI LCD display (I used [this](https://www.digikey.com.au/product-detail/en/dfrobot/DFR0091/DFR0091-ND/7597123) one)
 - Red and green buttons either with built in LED's or separate LED's (Make sure to use the appropriate resistor for your LED's)
 - 3 position 2 pole keyswitch if using for power and to enter config mode **or** 2 position 1 pole switch if just for config mode (Use a separate switch for power)
 - Square wave buzzer
 - 7 to 12 volt power supply for Arduino (in my case, I used 2 18650 Li-Ion cells in series in battery holders)
-- BMS to prevent over charging/over discharging of batteries (important if using Li-Po or Li-Ion batteries)
+- BMS to prevent over charging/over discharging of batteries (important if using Li-Po or Li-Ion batteries without integrated BMS)
 - Various jumper cables/ribbon cables to connect everything together
 
 ## Optional parts list: 
@@ -38,7 +38,6 @@ Submit issues via the issues tab. Contact me at lachlan.github@outlook.com
     4. LCD RW - Arduino 3
     5. LCD E - Arduino 2
 
-![Image of keypad pinout](https://github.com/Voltage99/Arduino_Prop_Bomb/blob/d9e85f99d4aa42dad52defa2432119da7a1e23b5/Keypad%20pinout.jpg)
 
 2. Keypad
     1. Keypad 2 - Arduino 20
@@ -48,6 +47,8 @@ Submit issues via the issues tab. Contact me at lachlan.github@outlook.com
     5. Keypad 6 - Arduino 16
     6. Keypad 7 - Arduino 15
     7. Keypad 8 - Arduino 14
+
+*Pinout on my keypad* ![Image of keypad pinout](https://github.com/Voltage99/Arduino_Prop_Bomb/blob/d9e85f99d4aa42dad52defa2432119da7a1e23b5/Keypad%20pinout.jpg)
 
 3. Buttons
     1. Red button COM - Arduino GND (Or use 49 to save on wiring)
