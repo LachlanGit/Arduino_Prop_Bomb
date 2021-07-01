@@ -3,9 +3,9 @@
 # Arduino Prop Bomb
 Prop bomb for use in Airsoft/Gel ball/Nerf games
 
-[Check out the video here](www.youtube.com)
+[Check out the video here](https://www.youtube.com)
 
-Submit issues via the issues tab. Contact me 
+Submit issues via the issues tab. Contact me at lachlan.github@outlook.com
 
 ## Electronics parts list: 
 (If you use parts other than the ones I used, it is up to you to edit the code accordingly)
