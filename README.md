@@ -1,5 +1,3 @@
-# THIS IS A WIP, CHECK BACK LATER
-
 # Arduino Prop Bomb
 Prop bomb for use in Airsoft/Gel ball/Nerf games
 
