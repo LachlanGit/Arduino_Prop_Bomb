@@ -3,7 +3,7 @@
 # Arduino Prop Bomb
 Prop bomb for use in Airsoft/Gel ball/Nerf games
 
-[Check out the video here](https://www.youtube.com)
+[Check out the video here](https://youtu.be/Dwf5lzY_378)
 
 Submit issues via the issues tab. Contact me at lachlan.github@outlook.com
 
@@ -12,8 +12,8 @@ Submit issues via the issues tab. Contact me at lachlan.github@outlook.com
 - Arduino Mega 2560
 - 12 button keypad (0-9, *, #)
 - [128 * 64 3-wire SPI LCD display](https://www.digikey.com.au/product-detail/en/dfrobot/DFR0091/DFR0091-ND/7597123))
-- Red and green buttons either with built in LED's or seperate LED's (Make sure to use the appropriate resistor for your LED's)
-- 3 position 2 pole keyswitch if using for power and to enter config mode **or** 2 position 1 pole switch if just for config mode (Use a seperate switch for power)
+- Red and green buttons either with built in LED's or separate LED's (Make sure to use the appropriate resistor for your LED's)
+- 3 position 2 pole keyswitch if using for power and to enter config mode **or** 2 position 1 pole switch if just for config mode (Use a separate switch for power)
 - Square wave buzzer
 - 7 to 12 volt power supply for Arduino (in my case, I used 2 18650 Li-Ion cells in series in battery holders)
 - BMS to prevent over charging/over discharging of batteries (important if using Li-Po or Li-Ion batteries)
@@ -68,7 +68,7 @@ Submit issues via the issues tab. Contact me at lachlan.github@outlook.com
 6. Buzzer
     1. Buzzer - Arduino 11 + 12 (Polarity irrelevant)
 
-7. Battery (Use second pole of keyswitch **or** a seperate switch in series to toggle power)
+7. Battery (Use second pole of keyswitch **or** a separate switch in series to toggle power)
     1. Battery Ground (-) - Arduino GND
     2. Battery Positive (+) - Arduino VIN
 
@@ -78,7 +78,7 @@ Submit issues via the issues tab. Contact me at lachlan.github@outlook.com
 - Button by t3db0t (Available [here](https://github.com/virgildisgr4ce/Button))
 - ToneAC by Tim Eckel (Available in library manager or [here](https://github.com/teckel12/arduino-toneac))
 - EEPROMEx by Thijs Elenbaas (Available in library manager or [here](http://playground.arduino.cc/Code/EEPROMex))
-- Timers by Me (Available [here](http://github.com))
+- Timers by LachlanGit/Me (Available [soon](http://github.com))
 
 ## Configuration mode usage
 - Turn key to config position (will be different depending on your key switch used)
@@ -88,4 +88,4 @@ Submit issues via the issues tab. Contact me at lachlan.github@outlook.com
 - Turn key out of config position to go back to play mode
 
 ## Game play usage
-- Use [this video](www.youtube.com) as a rough guide or follow on-screen instructions
+- Use [this video](https://youtu.be/Dwf5lzY_378) as a rough guide or follow on-screen instructions
