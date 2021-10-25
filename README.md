@@ -6,7 +6,7 @@ Prop bomb for use in Airsoft/Gel ball/Nerf games
 Submit issues via the issues tab. Contact me at lachlan.github@outlook.com
 
 ## Electronics parts list: 
-(If you use parts other than the ones I used, it is up to you to edit the code accordingly)
+(It may be possible to use alternative parts, however, the code will have to be customised for them)
 - Arduino Mega 2560
 - 12 button keypad (0-9, *, #)
 - 128 * 64 3-wire SPI LCD display (I used [this](https://www.digikey.com.au/product-detail/en/dfrobot/DFR0091/DFR0091-ND/7597123) one)
